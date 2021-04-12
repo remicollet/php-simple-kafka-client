@@ -1,5 +1,8 @@
 --TEST--
 initTransaction() not configured
+--SKIPIF--
+<?php
+require __DIR__ . '/integration-tests-check.php';
 --FILE--
 <?php
 require __DIR__ . '/integration-tests-check.php';
